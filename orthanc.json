@@ -1,0 +1,21 @@
+{
+  "Name": "Orthanc on Render",
+
+  "StorageDirectory": "/var/lib/orthanc/db",
+
+  "RemoteAccessAllowed": true,
+  "AuthenticationEnabled": false,
+
+  "HttpServerEnabled": true,
+  "HttpPort": 8042,
+  "HttpDescribeErrors": true,
+  "HttpAllowOrigin": "*",
+
+  "DicomWeb": {
+    "Enable": true,
+    "Root": "/dicom-web/",
+    "EnableWado": true,
+    "EnableQido": true,
+    "EnableStow": true
+  }
+}
