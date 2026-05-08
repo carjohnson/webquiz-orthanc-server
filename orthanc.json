@@ -1,14 +1,8 @@
 {
-  "Name": "Orthanc on Render",
-
-  "StorageDirectory": "/var/lib/orthanc/db",
-
-  "RemoteAccessAllowed": true,
+  "Name": "Orthanc",
   "AuthenticationEnabled": false,
-
+  "RemoteAccessAllowed": true,
   "HttpServerEnabled": true,
-  "HttpPort": 8042,
-  "HttpDescribeErrors": true,
   "HttpAllowOrigin": "*",
 
   "DicomWeb": {
