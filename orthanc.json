@@ -6,14 +6,13 @@
   },
   "RemoteAccessAllowed": true,
   "HttpServerEnabled": true,
-
+  "HttpHeaders" : {
+    "Access-Control-Allow-Origin" : "*"
+  },
   "Plugins": [
     "/usr/local/share/orthanc/plugins/libOrthancDicomWeb.so"
   ],
 
-  "ExtraHeaders": {
-    "Access-Control-Allow-Origin": "*"
-  },
 
   "DicomWeb": {
     "Enable": true,
