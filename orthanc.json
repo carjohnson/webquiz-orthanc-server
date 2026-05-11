@@ -3,6 +3,7 @@
   "AuthenticationEnabled": false,
   "RemoteAccessAllowed": true,
   "HttpServerEnabled": true,
+  "HttpAllowOrigin": "*",
   "Plugins": [
     "/usr/local/share/orthanc/plugins/libOrthancDicomWeb.so"
   ],
@@ -16,7 +17,7 @@
   },
 
   "ExtraHeaders": {
-    "Access-Control-Allow-Origin": "https://baines-webquiz-deploy.onrender.com",
+    "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
     "Access-Control-Allow-Headers": "Authorization, Content-Type"
   }
