@@ -15,8 +15,7 @@
     "Root": "/dicom-web",
     "EnableWado": true,
     "EnableQido": true,
-    "EnableStow": true,
-    "Host": "webquiz-orthanc-server.onrender.com"
+    "EnableStow": true
   },
 
   "ExtraHeaders": {
