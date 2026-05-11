@@ -15,7 +15,9 @@
     "Root": "/dicom-web",
     "EnableWado": true,
     "EnableQido": true,
-    "EnableStow": true
+    "EnableStow": true,
+    "EnableCors": true,
+    "CorsAllowedOrigin": "*"
   },
 
   "ExtraHeaders": {
