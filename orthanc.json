@@ -4,16 +4,19 @@
   "RemoteAccessAllowed": true,
   "HttpServerEnabled": true,
   "HttpAllowOrigin": "*",
+  "HttpDescribeErrors": true,
+  "ForwardedAllowed": true,
   "Plugins": [
     "/usr/local/share/orthanc/plugins/libOrthancDicomWeb.so"
   ],
 
   "DicomWeb": {
     "Enable": true,
-    "Root": "/dicom-web/",
+    "Root": "/dicom-web",
     "EnableWado": true,
     "EnableQido": true,
-    "EnableStow": true
+    "EnableStow": true,
+    "Host": "webquiz-orthanc-server.onrender.com"
   },
 
   "ExtraHeaders": {
