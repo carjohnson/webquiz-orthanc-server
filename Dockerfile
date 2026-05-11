@@ -11,12 +11,10 @@ COPY orthanc.json /etc/orthanc/orthanc.json
 RUN echo "===== AFTER COPY =====" && \
     cat /etc/orthanc/orthanc.json
 
-RUN echo "===== LISTING ORTHANC BINARIES =====" && \
-    ls -l /usr/local/bin | grep -i orthanc || echo "No orthanc in /usr/bin" && \
-    ls -l /usr/local/sbin | grep -i orthanc || echo "No orthanc in /usr/sbin" && \
-    ls -l /usr/local/bin | grep -i Orthanc || echo "No Orthanc in /usr/bin" && \
-    ls -l /usr/local/sbin | grep -i Orthanc || echo "No Orthanc in /usr/sbin"
+# RUN echo "===== LISTING ORTHANC BINARIES =====" && \
+#     ls -l /usr/local/bin | grep -i Orthanc || echo "No Orthanc in /usr/bin" && \
+#     ls -l /usr/local/sbin | grep -i Orthanc || echo "No Orthanc in /usr/sbin"
 
-CMD ["/usr/local/sbin/Orthanc", "/etc/orthanc/orthanc.json"]
+# CMD ["/usr/local/sbin/Orthanc", "/etc/orthanc/orthanc.json"]
 
 EXPOSE 8042

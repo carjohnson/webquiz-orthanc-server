@@ -11,5 +11,11 @@
     "EnableWado": true,
     "EnableQido": true,
     "EnableStow": true
+  },
+  
+  "ExtraHeaders": {
+    "Access-Control-Allow-Origin": "https://baines-webquiz-deploy.onrender.com",
+    "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
+    "Access-Control-Allow-Headers": "Authorization, Content-Type"
   }
 }
