@@ -12,9 +12,8 @@
   ],
 
   "ExtraHeaders": {
-    "X-Test-Header": "hello"
+    "Access-Control-Allow-Origin": "*"
   },
-
 
   "DicomWeb": {
     "Enable": true,
