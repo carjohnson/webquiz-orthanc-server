@@ -1,6 +1,6 @@
 {
   "Name": "Orthanc",
-  "AuthenticationEnabled": false,
+  "AuthenticationEnabled": true,
   "RemoteAccessAllowed": true,
   "HttpServerEnabled": true,
   "HttpAllowOrigin": "*",
