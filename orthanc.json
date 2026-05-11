@@ -3,7 +3,9 @@
   "AuthenticationEnabled": false,
   "RemoteAccessAllowed": true,
   "HttpServerEnabled": true,
-  "HttpAllowOrigin": "*",
+  "Plugins": [
+    "/usr/local/share/orthanc/plugins"
+  ],
 
   "DicomWeb": {
     "Enable": true,
@@ -12,7 +14,7 @@
     "EnableQido": true,
     "EnableStow": true
   },
-  
+
   "ExtraHeaders": {
     "Access-Control-Allow-Origin": "https://baines-webquiz-deploy.onrender.com",
     "Access-Control-Allow-Methods": "GET, POST, PUT, DELETE, OPTIONS",
