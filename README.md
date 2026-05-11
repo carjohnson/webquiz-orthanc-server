@@ -1,4 +1,4 @@
-# WebQuizProject-Orthanc-Server
+# webquiz-orthanc-server
 
 # Orthanc DICOMweb Server for Render
 
@@ -46,13 +46,13 @@ This ensures your uploaded DICOM studies persist across deploys.
 ## 🌐 Accessing Orthanc
 
 Once deployed, your service will be available at:
-https://<your-service>.onrender.com/
+https://webquiz-orthanc-server.onrender.com/
 
 ### Orthanc Explorer UI
-https://<your-service>.onrender.com/
+https://webquiz-orthanc-server.onrender.com/
 
 ### DICOMweb Root
-https://<your-service>.onrender.com/dicom-web/
+https://webquiz-orthanc-server.onrender.com/dicom-web/
 
 OHIF will use this endpoint for QIDO/WADO/STOW.
 
@@ -68,4 +68,4 @@ Open the Orthanc Explorer UI and drop `.dcm` files.
 curl -X POST \
   -H "Content-Type: application/dicom" \
   --data-binary @myfile.dcm \
-  https://<your-service>.onrender.com/instances
+  https://webquiz-orthanc-server.onrender.com/instances
