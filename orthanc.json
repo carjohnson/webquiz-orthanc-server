@@ -17,6 +17,7 @@
   "DicomWeb": {
     "Enable": true,
     "Root": "/dicom-web/",
+    "PublicRoot": "/dicom-web/",
     "EnableWado": true,
     "EnableQido": true,
     "EnableStow": true
