@@ -1,15 +1,12 @@
 {
   "Name": "Orthanc on Render",
-
   "StorageDirectory": "/var/lib/orthanc/db",
-
   "RemoteAccessAllowed": true,
   "AuthenticationEnabled": true,
-
   "RegisteredUsers": {
     "${ORTHANC_USER}": "${ORTHANC_PASSWORD}"
   },
-
+  "DicomServerEnabled": false,
   "HttpServerEnabled": true,
   "HttpPort": 8042,
   "HttpDescribeErrors": true,
@@ -17,7 +14,6 @@
   "Plugins": [
     "/usr/local/share/orthanc/plugins/libOrthancDicomWeb.so"
   ],
-
   "DicomWeb": {
     "Enable": true,
     "Root": "/dicom-web/",
@@ -26,4 +22,3 @@
     "EnableStow": true
   }
 }
-
