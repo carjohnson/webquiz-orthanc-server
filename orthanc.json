@@ -4,7 +4,11 @@
   "StorageDirectory": "/var/lib/orthanc/db",
 
   "RemoteAccessAllowed": true,
-  "AuthenticationEnabled": false,
+  "AuthenticationEnabled": true,
+
+  "RegisteredUsers": {
+    "${ORTHANC_USER}": "${ORTHANC_PASSWORD}"
+  },
 
   "HttpServerEnabled": true,
   "HttpPort": 8042,
@@ -17,7 +21,6 @@
   "DicomWeb": {
     "Enable": true,
     "Root": "/dicom-web/",
-    "PublicRoot": "https://webquiz-cors-proxy.onrender.com/pacs-proxy/",
     "EnableWado": true,
     "EnableQido": true,
     "EnableStow": true
