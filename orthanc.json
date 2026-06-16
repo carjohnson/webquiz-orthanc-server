@@ -4,7 +4,7 @@
   "RemoteAccessAllowed": true,
   "AuthenticationEnabled": true,
   "RegisteredUsers": {
-    "${ORTHANC_USER}": "${ORTHANC_PASSWORD}"
+    "bainespacsadmin": "c9531e0bdb64024c4d991af1ab8ece79"
   },
   "DicomServerEnabled": false,
   "HttpServerEnabled": true,
