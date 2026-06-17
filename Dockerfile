@@ -15,7 +15,7 @@ RUN echo "===== AFTER COPY =====" && \
 #     ls -l /usr/local/bin | grep -i Orthanc || echo "No Orthanc in /usr/bin" && \
 #     ls -l /usr/local/sbin | grep -i Orthanc || echo "No Orthanc in /usr/sbin"
 
-# CMD ["/usr/local/sbin/Orthanc", "/etc/orthanc/orthanc.json"]
-# force rebuild
+CMD ["/usr/local/sbin/Orthanc", "/etc/orthanc/orthanc.json"]
+
 
 EXPOSE 8042
