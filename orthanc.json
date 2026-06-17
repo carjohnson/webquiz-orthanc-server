@@ -5,7 +5,7 @@
 
   "AuthenticationEnabled": true,
   "RegisteredUsers": {
-    "${ORTHANC_USER}": "${ORTHANC_PASSWORD}"
+    "${ORTHANC_USER}": "${ORTHANC_PASS}"
   },
   "RemoteAccessAllowed": true,
 
