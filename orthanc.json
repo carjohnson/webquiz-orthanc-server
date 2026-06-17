@@ -2,7 +2,7 @@
   "Name": "Orthanc on Render",
   "AuthenticationEnabled": true,
   "RegisteredUsers": {
-    "test": "test"
+    "${ORTHANC_USER}": "${ORTHANC_PASSWORD}"
   },
   "RemoteAccessAllowed": true,
 
