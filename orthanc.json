@@ -6,7 +6,7 @@
   "RegisteredUsers": {
     "bainespacsadmin": "c9531e0bdb64024c4d991af1ab8ece79"
   },
-  "DicomServerEnabled": false,
+
   "HttpServerEnabled": true,
   "HttpPort": 8042,
   "HttpDescribeErrors": true,
