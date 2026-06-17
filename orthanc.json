@@ -5,6 +5,9 @@
 
   "RemoteAccessAllowed": true,
   "AuthenticationEnabled": true,
+  "RegisteredUsers": {
+  "test": "test"
+},
 
   "DicomServerEnabled": false,
   "HttpServerEnabled": true,
