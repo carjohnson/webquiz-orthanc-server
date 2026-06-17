@@ -4,10 +4,10 @@
   "StorageDirectory": "/var/lib/orthanc/db",
 
   "RemoteAccessAllowed": true,
-  "AuthenticationEnabled": false,
+  "AuthenticationEnabled": true,
   "RegisteredUsers": {
-  "test": "test"
-},
+    "test": "test"
+  },
 
   "DicomServerEnabled": false,
   "HttpServerEnabled": true,
