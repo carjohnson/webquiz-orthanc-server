@@ -1,12 +1,13 @@
 {
   "Name": "Orthanc on Render",
+
+  "StorageDirectory": "/var/lib/orthanc/db",
+
   "AuthenticationEnabled": true,
   "RegisteredUsers": {
     "${ORTHANC_USER}": "${ORTHANC_PASSWORD}"
   },
   "RemoteAccessAllowed": true,
-
-  "StorageDirectory": "/var/lib/orthanc/db",
 
   "DicomServerEnabled": false,
   "HttpServerEnabled": true,
